@@ -1,38 +1,38 @@
-<header class="container-outer" fxLayout="row wrap" fxLayoutAlign="space-between center" fxShow.gt-sm fxHide.lt-sm>
-	<div class="container" fxFlex="20">
-		<div class="container-inner">
-			<a [routerLink]="['']" routerLinkActive="router-link-active">Home</a>
-		</div>
-	</div>
-	<div class="container" fxFlex="60" fxFlex.lt-md="80">
-		<div class="container-inner">
-			DESKTOP HEADER
-		</div>
-	</div>
-	<div class="container" fxFlex="20" fxFlex.lt-md="100">
-		<div class="container-inner">
-			<a [routerLink]="['/row-examples']" routerLinkActive="router-link-active">Examples</a>
-		</div>
-	</div>
+<header class="container-outer" fxHide.lt-sm fxLayout="row wrap" fxLayoutAlign="space-between center" fxShow.gt-sm>
+    <div class="container" fxFlex="20">
+        <div class="container-inner">
+            <a [routerLink]="['']" routerLinkActive="router-link-active">Home</a>
+        </div>
+    </div>
+    <div class="container" fxFlex="60" fxFlex.lt-md="80">
+        <div class="container-inner">
+            DESKTOP HEADER
+        </div>
+    </div>
+    <div class="container" fxFlex="20" fxFlex.lt-md="100">
+        <div class="container-inner">
+            <a [routerLink]="['/row-examples']" routerLinkActive="router-link-active">Examples</a>
+        </div>
+    </div>
 </header>
 
-<header class="container-outer" fxLayout="column" fxLayoutAlign="center stretch" fxShow.lt-sm fxHide.lt-xl>
-	<div class="container">
-		<div class="container-inner">
-			<a [routerLink]="['']" routerLinkActive="router-link-active">Home</a>
-		</div>
-	</div>
+<header class="container-outer" fxHide.lt-xl fxLayout="column" fxLayoutAlign="center stretch" fxShow.lt-sm>
+    <div class="container">
+        <div class="container-inner">
+            <a [routerLink]="['']" routerLinkActive="router-link-active">Home</a>
+        </div>
+    </div>
 
-	<div class="container">
-		<div class="container-inner">
-			<a [routerLink]="['/row-examples']" routerLinkActive="router-link-active">Examples</a>
-		</div>
-	</div>
-	<div class="container">
-		<div class="container-inner">
-			CELL PHONE HEADER
-		</div>
-	</div>
+    <div class="container">
+        <div class="container-inner">
+            <a [routerLink]="['/row-examples']" routerLinkActive="router-link-active">Examples</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="container-inner">
+            CELL PHONE HEADER
+        </div>
+    </div>
 </header>
 
 <!-- <header class="container-outer" fxLayout="row" fxLayoutAlign="space-between center" fxLayout.lt-sm="column" fxLayoutAlign.lt-sm="center stretch">
