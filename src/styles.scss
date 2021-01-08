@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Temporary Styles */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  background-color: #eee;
+}
+.container-outer {
+  border: solid 3px #ffc300;
+  padding: 10px;
+}
+.container {
+  border: solid 3px #900c3f;
+  padding: 10px;
+}
+.container-inner {
+  border: solid 3px #ff5733;
+  padding: 10px;
+}
+.container-element {
+  border: solid 3px #0d00c7;
+  padding: 10px;
+}
+
+.background-container {
+  background-color: #0c7190;
+}
+.background-inner {
+  background-color: #5fff33;
+}
+.background-element {
+  background-color: #6a00c7;
+}
+.background-outer {
+  background-color: #00ffd9;
+}
+.height150 {
+  height: 150px;
+}
+.height250 {
+  height: 250px;
+}
